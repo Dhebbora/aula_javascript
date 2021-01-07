@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Minha página JS</title>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body onload="load()"> <!--O onload é colocado apenas para mostrar na tela quando o body estiver carregado -->
+
+    <button type="button" onclick="clicou()">Clique aqui</button>
+    <p id="agradecida" onclick="redirecionar()"> </p>
+    <p id="mousemoove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p> <!-- aqui é quando tem apneas 1 opção para mudar-->
+    <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p> <!--Aqui é pra quando tiver mais de uma opção para mudar*/-->
+
+<select onchange="funcaoChange(this)">
+    <option value="01"> Valor 01</option>
+    <option value="02"> Valor 02</option>
+    <option value="03"> Valor 03</option>
+</select>
+</body>
+</html>
